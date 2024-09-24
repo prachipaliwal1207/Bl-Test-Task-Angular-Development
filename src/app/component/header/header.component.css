@@ -1,0 +1,74 @@
+.container-fluid {
+    padding-left: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.left {
+    padding: 8px;
+    display: flex;
+}
+
+.left input {
+    width: 30rem;
+    height: 3rem;
+    border-radius: 30px;
+    border: none;
+    padding: 8px;
+    position: relative;
+    font-size: 13px;
+}
+
+.left i {
+    position: absolute;
+    left: 42rem;
+    top: 20px;
+    font-size: 1.4rem;
+
+}
+
+.right {
+    display: flex;
+    width: 15rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.profile img{
+    cursor: pointer;
+}
+
+.right .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.right .fa-bell {
+    background-color: white;
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+    text-align: center;
+}
+
+.name {
+    font-size: 12px;
+}
+
+.fa-sign-out {
+    font-size: 20px;
+    cursor: pointer;
+}

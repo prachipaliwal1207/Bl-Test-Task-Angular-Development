@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="table">
+    <div class="table-header">
+      <div class="table-row">
+        <div class="table-cell">S.No</div>
+        <div class="table-cell">Location</div>
+        <div class="table-cell">India Cases </div>
+        <div class="table-cell">Foreign Cases</div>
+        <div class="table-cell">Discharged</div>
+        <div class="table-cell">Deaths</div>
+        <div class="table-cell">Total Confirmed</div>
+      </div>
+    </div>
+    <div class="table-body">
+      <div class="table-row" *ngFor="let item of filteredData; let index = index">
+        <div class="table-cell">{{ index + 1 }}</div>
+        <div class="table-cell">{{item.loc}}</div>
+        <div class="table-cell">{{item.confirmedCasesIndian}}</div>
+        <div class="table-cell">{{item.confirmedCasesForeign}}</div>
+        <div class="table-cell">{{item.discharged}}</div>
+        <div class="table-cell">{{item.deaths}}</div>
+        <div class="table-cell">{{item.totalConfirmed}}</div>
+      </div>
+    </div>
+  </div>
+</div>

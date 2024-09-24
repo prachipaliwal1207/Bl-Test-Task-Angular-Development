@@ -1,0 +1,18 @@
+.container-fluid {
+    padding-left: 15.8rem;
+
+}
+
+#chartContainer1,#chartContainer2 {
+    height: 250px;
+    width: 30rem;
+    border-radius: 15px;
+}
+
+.covid-19-graphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+

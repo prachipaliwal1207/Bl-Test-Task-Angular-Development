@@ -1,0 +1,48 @@
+.container-fluid {
+    padding-left: 15.8rem;
+    display: flex;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.table-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.table-row {
+    display: flex;
+    width: 100%;
+
+}
+
+.table-cell {
+    flex: 1;
+    height: 3rem;
+    padding: 10px;
+    font-size: .83rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-header .table-cell {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-row:hover {
+    background-color: #f9f9f9;
+}
